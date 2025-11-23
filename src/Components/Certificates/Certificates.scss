@@ -1,0 +1,90 @@
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+section#certificates {
+    background-color: black;
+
+    div.carousel-indicators {
+        button {
+            width: 1.25rem;
+            height: 1.25rem;
+            margin-inline: 1rem;
+            transition: 250ms;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    h3 {
+        color: #7132b9;
+        font-size: 2rem;
+    }
+    .carousel-item.animate-slide {
+        animation: fadeInUp 1s ease;
+
+        .carousel-content {
+            width: fit-content;
+            text-align: center;
+            transition: 300ms;
+            overflow: hidden;
+            
+            &:hover {
+                transform: translateY(-10px) scale(1.025);
+
+                img {
+                    opacity: 0.95;
+                    box-shadow: 0px 0px 25px 2px #fff;
+                }
+            }
+
+            h4 {
+                font-size: 1.5rem;
+                @media screen and (max-width: 768px) {
+                    font-size: 1.25rem;
+                }
+
+                @media screen and (max-width: 576px) {
+                    font-size: 1rem;
+                }
+            }
+
+            img {
+                width: 900px;
+                aspect-ratio: 16 / 9;
+                opacity: 0.75;
+                transition: 300ms;
+                
+
+                @media screen and (max-width: 1408px) {
+                    width: 750px;
+                }
+
+                @media screen and (max-width: 1280px) {
+                    width: 650px;
+                }
+
+                @media screen and (max-width: 992px) {
+                    width: 525px;
+                }
+
+                @media screen and (max-width: 768px) {
+                    width: 400px;
+                }
+
+                @media screen and (max-width: 576px) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

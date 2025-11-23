@@ -1,0 +1,56 @@
+import "./Contact.scss";
+import curriculoPDF from "/assets/Natan_Araujo_Curriculo.pdf"
+export function Contact() {
+    return (
+        <footer id="contact" className="text-center py-4 border-top">
+            <h4 className="pt-1 fw-semibold">Contate-me!</h4>
+            <div className="
+            container
+            d-flex flex-column
+            flex-md-row
+            justify-content-evenly
+            align-items-center
+            gap-5
+            flex-wrap py-4">
+
+                <a
+                    href="mailto:natanmedeirosbt@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="contact-link"
+                >
+                    <i className="bi bi-envelope-fill"></i> Email
+                </a>
+
+                <a
+                    href="linkedin.com/in/natanaraujodemedeiros"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="contact-link"
+                >
+                    <i className="bi bi-linkedin"></i>LinkedIn
+                </a>
+
+                <a
+                    href="https://github.com/Natan-Araujo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="contact-link"
+                >
+                    <i className="bi bi-github"></i> GitHub
+                </a>
+
+                <a
+                    href={curriculoPDF}
+                    download="Natan_Araujo_Curriculo.pdf"
+                    className="contact-link"
+                >
+                    <i className="bi bi-download"></i> Currículo
+                </a>
+
+            </div>
+
+            <h5 className="pt-2">© {new Date().getFullYear()} Natan Araujo. Todos os direitos reservados.</h5>
+        </footer>
+    );
+}

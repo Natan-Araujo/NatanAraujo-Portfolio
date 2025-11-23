@@ -1,0 +1,135 @@
+.card {
+    margin-bottom: 1rem;
+    background-color: transparent !important;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 300ms;
+    position: relative;
+    overflow: hidden;
+
+    .img-wrapper {
+        position: relative;
+        display: inline-block;
+        border-radius: 0.5rem;
+
+        img {
+            border-radius: inherit;
+            border: 1.5px solid #333;
+            transition: 300ms;
+        }
+
+        &.highlight::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: inherit;
+            padding: 1.5px;
+            background: linear-gradient(120deg, #fbff00, #000, #fbff00);
+            background-size: 300% 300%;
+            animation: borderFlow 5s linear infinite;
+            mask: linear-gradient(#000 0 0) content-box,
+                linear-gradient(#000 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
+
+        }
+
+        @keyframes borderFlow {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 300% 50%;
+            }
+        }
+    }
+    .overlay {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        transition: 300ms;
+        background: #00000040;
+        border: 1.5px solid transparent;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        z-index: 3;
+
+        &:hover {
+            opacity: 1;
+            background: transparent;
+            border-color: #7132b9;
+            box-shadow: 0px 0px 20px 8px #7a7a7abf;
+        }
+
+        .overlay-content {
+            border-radius: 0.5rem;
+            background-color: #18012cd8;
+            transition: 300ms;
+        }
+    }
+}
+
+.selected {
+    border: 3px solid #fff;
+    &.highlight {
+        border-color: #ef0;
+    }
+    h5 {
+        color: #7132b9;
+    }
+
+    .btn {
+        transition: color 150ms !important;
+        &:active {
+            border: none !important;
+        }
+
+        .bi-x-circle {
+            font-size: 1.75rem;
+        }
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .btn-custom {
+        background-color: #7132b9b0;
+        color: #fff;
+        font-size: 1.2rem;
+        height: 3.5rem;
+        border: none;
+        border-radius: 10px;
+        transition: 300ms;
+        min-width: 10rem;
+        max-width: 100%;
+        &:hover {
+            background-color: #7132b9;
+        }
+        &:disabled {
+            background-color: #7132b940;
+            color: #aaa;
+        }
+
+        @media screen and (max-width: 768px) {
+            height: 3rem;
+            font-size: 1rem;
+            width: 100%;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .overlay-content {
+        margin-top: 2rem;
+    }
+
+    h5.card-title {
+        font-size: 1.2rem;
+    }
+}
