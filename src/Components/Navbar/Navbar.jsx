@@ -8,7 +8,7 @@ export function Navbar() {
       <div className="container-fluid py-1">
 
         <h1 className="navbar-brand fw-bolder">
-          <a href="https://github.com/Natan-Araujo" rel="noopener noreferrer" target="_blank">Gekyume Serna</a>
+          <a href="https://github.com/Natan-Araujo" rel="noopener noreferrer" target="_blank">Natan Araujo</a>
         </h1>
 
         <button

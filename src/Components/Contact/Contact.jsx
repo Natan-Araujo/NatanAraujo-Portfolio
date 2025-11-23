@@ -23,7 +23,7 @@ export function Contact() {
                 </a>
 
                 <a
-                    href="linkedin.com/in/natanaraujodemedeiros"
+                    href="https://www.linkedin.com/in/natanaraujodemedeiros"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="contact-link"

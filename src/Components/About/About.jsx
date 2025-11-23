@@ -47,28 +47,28 @@ export function About() {
                         <h3 className="mb-4 fw-bold fs-2">Sobre Mim</h3>
 
                         <p className="px-2 px-md-0">
-                            Sou estudante de Análise e Desenvolvimento de Sistemas, tenho 20 anos de idade e me
-                            interesso principalmente pelas áreas de Desenvolvimento Web e Cibersegurança. Gosto de
-                            explorar como a tecnologia pode impactar positivamente o dia a dia das pessoas, seja
-                            promovendo inclusão digital, otimizando tarefas rotineiras ou oferecendo formas seguras
-                            e acessíveis de gerenciar informações.
-                            Tenho afinidade com temas como Segurança da Informação, Pentest e Desenvolvimento Web,
-                            tanto no Front-End quanto no Back-End. Busco constantemente aprender novas ferramentas,
-                            entender arquiteturas, padrões e boas práticas, além de implementá-los em projetos e
-                            estudos.
+                            Sou estudante de Engenharia de software tenho 25 anos de idade e me interesso 
+                            principalmente pelas áreas de Desenvolvimento Web e T.i parte de hardware Gosto de 
+                            explorar como a tecnologia pode impactar positivamente o dia a dia das pessoas, seja 
+                            promovendo inclusão digital, otimizando tarefas de rotinas, Desenvolvimento Web, tanto no
+                            Front-End quanto no Back-End. Busco constantemente aprender novas ferramentas, 
+                            entender arquiteturas, padrões e boas práticas, além de implementá-los em projetos e 
+                            estudos. A tecnologia, para mim, vai além do código. Ela é uma forma de pensar e resolver 
+                            problemas. Encaro os estudos e os projetos como oportunidades de aprofundar 
+                            conhecimentos, construir soluções úteis e entender melhor o mundo digital em que vivemos, 
                             A tecnologia, para mim, vai além do código. Ela é uma forma de pensar e resolver problemas.
-                            Encaro os estudos e os projetos como oportunidades de aprofundar conhecimentos, construir
-                            soluções úteis e entender melhor o mundo digital em que vivemos.
+                            Encaro os estudos e os projetos como oportunidades de aprofundar conhecimentos, construir soluções úteis
+                             e entender melhor o mundo digital em que vivemos, e também uma forma de buscar nova oportunidade de emprego,
                         </p>
                         <p className="px-2 px-md-0">
-                            No meu tempo livre, gosto de jogar videogame, principalmente jogos de terror, FPS e
-                            aqueles com boas histórias que realmente prendem a atenção. Música também é uma parte
-                            importante do meu dia a dia. Meu gosto pode ser um pouco peculiar, mas ultimamente tenho
-                            tentado ser mais eclético e aberto a novos gêneros musicais.
-                            Além da programação e da segurança, também tenho curiosidade por áreas relacionadas a
-                            hardware. Me interesso por peças de computador e gosto de entender como tudo se encaixa
-                            e funciona. Já explorei um pouco o universo do Arduino e consegui até mesmo apresentar
-                            um pequeno projeto no Rio Innovation Week 2025.
+                            No meu tempo livre, gosto de jogar jogos eletrônicos no computador principalmente jogos 
+                            de terror, FPS e aqueles com boas histórias de assustar, e valorant de FPS. Gosto de ouvir 
+                            Música faz parte importante do meu dia a dia, Academia é uma das minhas rotinas, estou indo as vezes enquanto,
+                            sempre acordo 5:40 da manhã de segunda a sexta, para treinar e depois ir para o trabalho, que atualmente,
+                            trabalho no cartório, como auxiliar , e gostaria muito de sair de lá e ir para a minha área, de programação
+                             e começar minha carreira. Além da programação e hardware também tenho curiosidade por áreas relacionadas a
+                            segurança. Me interesso por segurança e gosto de entender como tudo funciona contra hackers e proteger. 
+                            como tudo funciona contra hackers e proteger. 
                         </p>
                     </div>
 
