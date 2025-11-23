@@ -19,21 +19,15 @@ export const arrayExperince = [
   },
   {
     title: "Colaboração em Equipe e Impacto no Resultado Final",
-    description: `O projeto foi desenvolvido em equipe, com cada integrante responsável por uma parte específica do jogo,
-                    A colaboração contínua, troca de ideias e integração das funcionalidades resultaram em um produto final
-                    funcional e coerente. Esse trabalho reforçou a importância da comunicação, divisão eficiente de tarefas e
-                    responsabilidade coletiva na entrega de sistemas robustos e bem estruturados..`,
+    description: `O trabalho foi realizado em equipe, onde cada integrante ficou responsável por partes específicas do jogo. A
+                    colaboração contínua, integração das funcionalidades e troca de ideias foram fundamentais para alcançar
+                    um resultado funcional e coerente, reforçando a importância da comunicação, divisão de tarefas e
+                    responsabilidade coletiva no desenvolvimento de sistemas robustos. 
+                    Você pode acessar o jogo Zumbal no link: https://hendrickxr.itch.io/zumbal (É necessário baixar e executar no Windows.)`,
     side: "left",
   },
   {
-    title: "Colaboração em Equipe e Impacto no Resultado Final",
-    description: `O projeto foi desenvolvido em equipe, com cada integrante responsável por uma parte específica do jogo,
-                    A colaboração contínua, troca de ideias e integração das funcionalidades resultaram em um produto final
-                    funcional e coerente. Esse trabalho reforçou a importância da comunicação, divisão eficiente de tarefas e
-                    responsabilidade coletiva na entrega de sistemas robustos e bem estruturados,
-                    Link para o jogo, Você pode acessar o jogo Zumbal por este link: https://hendrickxr.itch.io/zumbal,
-                    (necessário baixar e executar no Windows).`,
-    side: "left",
+    
   }
 ];
 export default arrayExperince;
